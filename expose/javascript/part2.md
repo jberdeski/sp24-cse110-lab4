@@ -56,7 +56,16 @@
 15) The difference between the `==` equality operator and the `===` strict equality operator is `==` performs type coercion if the operands are of different types before comparing them, while `===` does not. 
 16) [Answer](part2-question16.js)
 17) Runing `modifyArray([1,2,3], doSomething)` results in `[2, 4, 6]` because `modifyArray` takes 2 parameters, then it initializes an emptyarray `newArr`, it then iterates through each element of the first parameter, then for each element it calls the second parameter (in this case `doSomething` which doubles the number) finally it pushes the the result into `newArr` and returns `newArr`.
-18) asd
-19)  asd  
+18) [Answer](part2-question18.js)
+19) The output of this code is
+    
+    ```
+    1
+    4
+    3
+    2
+    ```
+
+     This is the output because line 2 and line 5 execute almost instantaneously while line 4 has a slight delay, and line 3 has a longer delay.
 
     
