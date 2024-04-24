@@ -8,7 +8,7 @@
 8) The function should return the new array of discounted prices even though we define the variable `discounted` using `let` becuase it is within the scope, however since there is no `console.log` nothing gets printed. 
 9) Line 11 will result in an error because we cannot assign to `finalPrice` since it uses `const`.
 10) Line 12 here will print out `3` becuase `console.log(length)` means print out the value of `length` to the console, also since we are not trying to reassign the value of the `const` variable `length`, there are no errors. 
-11) The function would result in an error since the variable `discounted` is a `const` variable and the function attempts to reassign the array of `discounted`.
+11) The function should return the new array of discounted prices because even though `discoutned` uses `const` the `push` method is used to add elements to the array, but it does not change the reference of it, however since there is no `console.log` nothing gets printed.
 12) Accessing:
     
     A. `student.name`
@@ -54,16 +54,9 @@
     F. Output: `false` Because the '===' operator performs strict comparison without type coercion, `true` (a boolean) is not strictly equal to the result of `Boolean(2)` (which is also true), resulting in false.
 
 15) The difference between the `==` equality operator and the `===` strict equality operator is `==` performs type coercion if the operands are of different types before comparing them, while `===` does not. 
-16) as
-17) asd
+16) [Answer](part2-question16.js)
+17) Runing `modifyArray([1,2,3], doSomething)` results in `[2, 4, 6]` because `modifyArray` takes 2 parameters, then it initializes an emptyarray `newArr`, it then iterates through each element of the first parameter, then for each element it calls the second parameter (in this case `doSomething` which doubles the number) finally it pushes the the result into `newArr` and returns `newArr`.
 18) asd
 19)  asd  
-20) asd
-21) asd
-22) asd
-23) asd
-24) asd
-25) asd
-26) asdas
-27) d
+
     
