@@ -8,13 +8,21 @@
 8) The function should return the new array of discounted prices even though we define the variable `discounted` using `let` becuase it is within the scope, however since there is no `console.log` nothing gets printed. 
 9) Line 11 will result in an error because we cannot assign to `finalPrice` since it uses `const`.
 10) Line 12 here will print out `3` becuase `console.log(length)` means print out the value of `length` to the console, also since we are not trying to reassign the value of the `const` variable `length`, there are no errors. 
-11) asd
-12) asd
-13) asd
-14) asd
-15) asd
+11) The function would result in an error since the variable `discounted` is a `const` variable and the function attempts to reassign the array of `discounted`.
+12) Accessing:
+    A. `student.name`
+    B. `student['Grad Year']`
+    C. `student.greeting()`
+    D. `student['Favorite Teacher']`
+    E. `student.courseLoad[0]`
+13) 
+14)    
+15) 
 16) asd
 17) asd
-18) asdas
-19) d
+18) asd
+19) asd
+20) asd
+21) asdas
+22) d
     
