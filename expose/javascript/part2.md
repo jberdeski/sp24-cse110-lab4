@@ -21,15 +21,33 @@
     
     E. `student.courseLoad[0]`
 
-13) 
-14) 
-15)    
+13) Arithmetic:
+
+    A. Output: `32` This is the output becuase `'3'` is a string and in js that makes the equation an exact string representation
+
+    B. Output: `1` This happens becuase instead adding/ concatinating a string we are subtracting which is a mathmatical opperation.
+
+    C. Output: `3` In this equation `null` is treated as a 0
+
+    D. Output: `3null` Here `null` is treated as a string and the + is a concatination of the string `'3'` with the string `null`.
+
+    E. Output: `4` In js, `true` is coerced to the number 1, so this equation is treated as 1 + 3
+    
+    F. Output: `0` This occurs becuase both `false` and `null are coerced to the number 0, so js interprets this as 0 + 0
+
+    G. Output: `3undefined` Here js is interpretting the + as a concatination of the string `'3'` and `undefined`
+
+    H. Output: `NaN` This means not a numder, js outputs this because `undefined` cannot be converted to a number, also this operation is subtracting a non-number from the string `3` resulting in `NaN`.
+    
+15) 
 16) 
-17) asd
-18) asd
+17)    
+18) 
 19) asd
 20) asd
 21) asd
-22) asdas
-23) d
+22) asd
+23) asd
+24) asdas
+25) d
     
