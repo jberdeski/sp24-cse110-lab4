@@ -38,16 +38,32 @@
     G. Output: `3undefined` Here js is interpretting the + as a concatination of the string `'3'` and `undefined`
 
     H. Output: `NaN` This means not a numder, js outputs this because `undefined` cannot be converted to a number, also this operation is subtracting a non-number from the string `3` resulting in `NaN`.
-    
-15) 
-16) 
-17)    
-18) 
-19) asd
+
+14) Comparisions:
+
+    A. Output: `true` This is because the string `'2'` is coerced to the number 2, then is compared with the number 1, resulting in `true`
+
+    B. Output: `false` The way that js handles this is by comparing the strings `'2'` and `'12'` character by character. So the first thing it checked was if `'2'` was greater than `'1'`, which it is not.
+
+    C. Output: `true` This is because the `==` operator performs type coercion, so `'2'` is coerced to the number 2, then compared with `2`, resulting in true.
+
+    D. Output: `false` Here the `===` operator performs strict comparison without type coercion, so `'2'` (a string) is not strictly equal to `2` (a number), resulting in false.
+
+    E. Output: `false` Since the `==` operator performs type coercion, `true` is coerced to the number 1, which is not equal to 2, resulting in false.
+
+    F. Output: `false` Because the '===' operator performs strict comparison without type coercion, `true` (a boolean) is not strictly equal to the result of `Boolean(2)` (which is also true), resulting in false.
+
+15) The difference between the `==` equality operator and the `===` strict equality operator is `==` performs type coercion if the operands are of different types before comparing them, while `===` does not. 
+16) as
+17) asd
+18) asd
+19)  asd  
 20) asd
 21) asd
 22) asd
 23) asd
-24) asdas
-25) d
+24) asd
+25) asd
+26) asdas
+27) d
     
